@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://db.onlinewebfonts.com/c/f7d1b2995a6dff7abcda304d226aa67d?family=Helvetica+W01+Bold);
+h1{
+    color: rgb(86,87,87);
+    text-align: center;
+    font-size: 45px;
+    line-height: 63px;
+    font-family: "Helvetica W01 Bold";
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #CC6666;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+/* Common styles for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the logo */
+.logo img {
+   height: 50px;
+   width: 50px;
+   margin-left: 100px;
+}
+.logo{
+  font-size: 24px;
+}
+.logo span{
+
+color: rgb(18,137,149);
+position: relative;
+bottom: 18px;
+font-size: 28px;
+}
+
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+
+    gap: 20px;
+    margin-right: 100px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #ff9999;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@font-face {
+    font-family: "Helvetica W01 Bold";
+    src: url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.eot");
+    src: url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.svg#Helvetica W01 Bold")format("svg");
+}
+.h21{
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: rgb(86,87,87);
+    font-family: "Helvetica W01 Bold";
+}
+.h22{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(86,87,87);
+    font-family: "Helvetica W01 Bold";
+}
+.h23{
+    margin-left: 213px;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(86,87,87);
+    font-family: "Helvetica W01 Bold";
+}
+.h24{
+    text-align: center;
+    font-size: 19px;
+    line-height: 22px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 400;
+}
+.container{
+    text-align: center;
+}
+.para1{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "helvetica-w01-roman - 400";
+    font-weight: 400;
+}
+span{
+    color: #565757;
+    font-weight: 700;
+}
+.para2{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "helvetica-w01-roman - 400";
+    font-weight: 400;
+}
+.yotubecontainer{
+    margin-left: 200px;
+    margin-top: 40px;
+    
+    margin-right: 200px;
+
+}
+.footer {
+    background-color: rgb(235, 226, 226);
+    color: gray;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+  }
+  .footer-text {
+    display: inline-block;
+    vertical-align: middle;
+   
+    margin-left: 10px;
+  }
